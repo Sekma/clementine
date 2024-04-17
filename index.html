@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Clémentine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Sekma">
+        <link rel="icon" href="img/logo.ico">   
+        <link rel="stylesheet" href="css/navBar.css">
+        <link rel="stylesheet" href="css/subbar.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/section.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+        <script src="js/subbarConntents.js" defer></script>
+    </head>
+    <body>
+      <header>
+        <nav id="navBar">
+          <div class="navBar-left">
+            <img class="logo" src="img/photo_de_couv.png" alt="logo">
+               <!-- nav bar menu -->
+            <ul>
+              <li><a id="home" href="#">ACCUEIL</a></li>
+              <li><a id="about" href="#">ABOUT</a></li>
+              <li><a id="service" href="#">SERVICES &nbsp;<i class="fa-solid fa-chevron-down"></i></a></li>
+              <li><a id="project" href="#">PROJECTS &nbsp;<i class="fa-solid fa-chevron-down"></i></a></li>
+              <li><a id="contact" href="#">CONTACTS</a></li>
+            </ul>
+            <!-- burger toggle -->
+            <div class="burger-toggle">
+              <div for="burger-toggle" class="burger" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </div>
+          </div>
+          <div class="navBar-right">
+            <h5><a href=""><i class="fa-solid fa-headset fa-2x"></i><span>MOB: (+216) 21 002 629</span></a></h5>
+          </div>
+        </nav>
+        
+       <!-- subbar -->
+        <div class="subbar" id="service_subbar">
+          <ul>
+            <li class="service-subbar-item"><a href="">Service 1 </a></li>
+            <li class="service-subbar-item"><a href="">Service 2 </a></li>
+            <li class="service-subbar-item"><a href="">Service 3 </a></li>
+            <li class="service-subbar-item"><a href="">Service 4 </a></li>
+          </ul>
+          <div id="service_subbar_description" class="subbar_description subbar-up"></div>
+        </div>
+        <div class="subbar" id="project_subbar">
+          <ul>
+            <li class="project-subbar-item"><a href="">Projet 1 </a></li>
+            <li class="project-subbar-item"><a href="">Projet 2 </a></li>
+            <li class="project-subbar-item"><a href="">Projet 3 </a></li>
+            <li class="project-subbar-item"><a href="">Projet 4 </a></li>
+          </ul>
+          <div id="project_subbar_description" class="subbar_description subbar-up"></div>
+        </div>
+        <!-- slide show -->
+          <div class="main-content" id="main-content">
+              <section class="slideshow">
+                <div class="slideshow-inner">
+                  <div class="slides">
+                    <div class="slide is-active ">
+                      <div class="slide-content">
+                        <div class="caption">
+                          <div class="title">Slide title 1</div>
+                          <div class="text">
+                            <p>Slide description 1</p>
+                          </div>
+                          <a href="#" class="btn">
+                            <span class="btn-inner">Learn More</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="image-container">
+                        <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2015/07/Indispensable-1.jpg" alt="" class="image" />
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content">
+                        <div class="caption">
+                          <div class="title">Slide title 2</div>
+                          <div class="text">
+                            <p>Slide description 2</p>
+                          </div>
+                          <a href="#" class="btn">
+                            <span class="btn-inner">Learn More</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="image-container">
+                        <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2015/07/Indispensable-4-1.jpg" alt="" class="image" />
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content">
+                        <div class="caption">
+                          <div class="title">Slide title 3</div>
+                          <div class="text">
+                            <p>Slide description 3</p>
+                          </div>
+                          <a href="#" class="btn">
+                            <span class="btn-inner">Learn More</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="image-container">
+                        <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2016/11/11.jpg" alt="" class="image" />
+                      </div>
+                    </div>
+                    <div class="slide">
+                      <div class="slide-content">
+                        <div class="caption">
+                          <div class="title">Slide title 4</div>
+                          <div class="text">
+                            <p>Slide description 4</p>
+                          </div>
+                          <a href="#" class="btn">
+                            <span class="btn-inner">Learn More</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="image-container">
+                        <img src="https://www.alixbdanthenay.fr/wp-content/uploads/2016/11/20mars17-sans-typo.jpg" alt="" class="image" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pagination">
+                    <div class="item is-active">
+                      <span class="icon">1</span>
+                    </div>
+                    <div class="item">
+                      <span class="icon">2</span>
+                    </div>
+                    <div class="item">
+                      <span class="icon">3</span>
+                    </div>
+                    <div class="item">
+                      <span class="icon">4</span>
+                    </div>
+                  </div>
+                  <div class="arrows">
+                    <div class="arrow prev">
+                      <span class="svg svg-arrow-left">
+                        <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve">
+                          <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z" />
+                        </svg>
+                        <span class="alt sr-only"></span>
+                      </span>
+                    </div>
+                    <div class="arrow next">
+                      <span class="svg svg-chevron-down">
+                        <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve">
+                          <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z" />
+                        </svg>
+                        <span class="alt sr-only"></span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          </div>
+      </header>
+          <main>
+            <section style="height: 600px;">
+              
+              <img class="separation" src="img/separation.png" alt="logo"> 
+            </section>
+          </main>
+          <footer id="footer">  
+            <img class="separation" src="img/separation.png" alt="logo">   
+            <div id="contact" class="space"></div>     
+            <div class="footerPart1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                <form action="mailto:sekma.mohamed.hedi@gmail.com" method="post" enctype="text/plain"  class="sendEmail">    
+                    <input class="champ1" type="text" name="nom" placeholder="Votre nom" required>
+                    <input class="champ2" type="text" name="portable" placeholder="Votre numéro" required><br>
+                    <textarea name="message" cols="60" rows="10" placeholder="Votre message" required></textarea><br>       
+                    <button type="submit">Envoyer</button><button type="reset">Reset</button>
+                </form>
+            </div>
+            <div class="footerPart2">
+                <div class="pages">
+                    <div class="pages1">
+                        <h3>Accès rapides</h3>
+                        <div class="redLine"></div>
+                        <a id="footer_home" href="#">Home</a>
+                        <a href="boutique.html">Boutique</a>
+                        <a href="#offres">Spécialités</a>
+                        <a href="#offres">Nos Promos</a>
+                    </div>
+                    <div class="pages2">
+                        <h3>A découvrir</h3>
+                        <div class="redLine"></div>
+                        <a href="boutique-item.html?id=catA">Catégorie A</a>
+                        <a href="boutique-item.html?id=catB">Catégorie B</a>
+                        <a href="boutique-item.html?id=catC">Catégorie C</a>
+                        <a href="boutique-item.html?id=catD">Catégorie D</a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h2>Clémentine</h2>
+                    <div class="redLine"></div>
+                    <a href="tel:+21621002629" target="_blank"><i class="fa-solid fa-phone"></i>&nbsp;<span>Tel</span>: 21 002 629</a>
+                    <a href="mailto:sekma.mohamed.hedi@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>&nbsp;<span>E-mail</span>: sekma.mohamed.hedi@gmail.com</a>    
+                    <a href=""><i class="fa-brands fa-linkedin"></i>&nbsp;<span>Linkedin</span>: Med Hedi Sekma</a> 
+                    <a href="https://www.facebook.com/sekma.med.hedi" target="_blank"><i class="fa-brands fa-facebook"></i>&nbsp;<span>Facebook</span>: Med Hedi Sekma</a>
+                    <a href="https://www.instagram.com/hedi.sekma" target="_blank"><i class="fa-brands fa-instagram"></i>&nbsp;<span>Instagram</span>: Med Hedi Sekma</a>    
+                    <a href="https://www.google.tn/maps/place/36%C2%B050'32.6%22N+10%C2%B009'53.5%22E/@36.8424003,10.1622921,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.842396!4d10.164867?hl=fr&entry=ttu" target="_blank"><i class="fa-solid fa-location-dot"></i>&nbsp;<span>Adresse</span>: 000 Rue abcd Menzah 7, Ariana</a>             
+                </div>
+            </div> 
+            <div class="footerPart3">
+                <span>Chariot - 2023 &copy; Created By SEKMA Mohamed Hedi</span>
+                <div class="createur">
+                    <a href="tel:+21621002629" target="_blank"><img src="img/icons/icons8-téléphone-50.png" alt="tel"></a>
+                    <a href="mailto:sekma.mohamed.hedi@gmail.com" target="_blank"><img src="img/icons/icons8-courrier-50.png" alt="mail"></a>
+                    <a href="https://github.com/Sekma" target="_blank"><img src="img/icons/icons8-github-48.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/mohamed-hedi-sekma-b4baab26b" target="_blank"><img src="img/icons/linkedin.png" alt=""></a>
+                    <a href="https://www.facebook.com/sekma.med.hedi" target="_blank"><img src="img/icons/facebook.png" alt="facebook"></a> 
+                </div>
+            </div>         
+    </footer>
+        <script src="js/animationScroll.js"></script>
+        <script src="js/header.js"></script>      
+        <script src="js/navBar.js"></script>      
+        <script src="js/subbar.js"></script>
+    </body>
+</html>
