@@ -159,6 +159,9 @@ nav.active ul li:nth-child(5){
         gap: 0;
         justify-content: center;
     }
+    .navBar-left ul a{
+      padding: 5px;
+    }
     .navBar-left ul a:hover, .navBar-right h5 a:hover{ 
       color: rgb(0, 0, 0);
   }
