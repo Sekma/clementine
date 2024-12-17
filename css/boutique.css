@@ -4,7 +4,7 @@
 .decorationTitle{
     height: 10px;
     width: 100px;
-    background-color: #f6b319;
+    background-color: rgb(255, 108, 34);
     position: relative;
     bottom:45px;
     left: 40%;
@@ -12,7 +12,7 @@
 .decorationTitleChild{
     height: 10px;
     width: 100px;
-    background-color: #61122f;
+    background-color: rgb(12, 10, 37);
     opacity: 0.5;
     position: relative;
     top: 5px;

@@ -87,15 +87,15 @@
     animation: 14s slideshow-contrast -5s infinite;
 }
 .slideshow--contrast .slide1 {
-    background-image: linear-gradient(to bottom, rgba(200, 200, 77, 0.25) 0, rgba(75, 75, 200, 0.5) 100%), url('../img/bg-1.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 108, 34, 0.3) 0, rgba(12, 10, 37, 0.5) 100%), url('../img/bg-1.jpg');
     animation: 20s slides-set-1 -0.2s infinite;
 }
 .slideshow--contrast .slide2 {
-    background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, rgba(200, 75, 75, 0.5) 100%), url('../img/bg-2.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 108, 34, 0.3) 0, rgba(12, 10, 37, 0.5) 100%), url('../img/bg-2.jpg');
     animation: 20s slides-set-2 -0.2s infinite;
 }
 .slideshow--contrast .slide3 {
-    background-image: linear-gradient(to bottom, rgba(150, 150, 75, 0.25) 0, rgba(200, 75, 75, 0.5) 100%), url('../img/bg-3.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 108, 34, 0.3) 0, rgba(12, 10, 37, 0.5) 100%), url('../img/bg-3.jpg');
     animation: 20s slides-set-3 -0.2s infinite;
 }
 .slideshow--contrast--after {
@@ -133,11 +133,8 @@
     padding: 25px;
     transform: skew(-10deg,0deg);
 }
-.header-content1{
-    background-image: linear-gradient(to bottom, rgba(200, 200, 77, 0.2) 0, rgba(75, 75, 200, 0.2) 100%);
-}
-.header-content2, .header-content3{
-    background-image: linear-gradient(to bottom, rgba(150, 150, 75, 0.2) 0, rgba(200, 75, 75, 0.2) 100%)
+.header-content1, .header-content2, .header-content3{
+    background-image: linear-gradient(to bottom, rgba(255, 108, 34, 0.3) 0, rgba(12, 10, 37, 0.5) 100%);
 }
 
 
