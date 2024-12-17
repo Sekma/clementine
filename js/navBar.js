@@ -25,7 +25,8 @@ function toggleMenu() {
           $("nav").css("background-color", "rgb(255, 255, 255)");
       }
       else{
-        $("nav").css("background-color", "rgba(255, 255, 255, 0.5)");
+        $("nav").css("background-color", "rgba(255, 255, 255, 0.8)");
+        $("nav:hover").css("background-color", "rgba(255, 255, 255, 0.8)");
       }
   });
   });

@@ -1,0 +1,171 @@
+.space{
+    height: 100px;
+    text-align: center;
+}
+.decorationTitle{
+    height: 10px;
+    width: 100px;
+    background-color: rgb(255, 108, 34);
+    position: relative;
+    bottom:45px;
+    left: 40%;
+}
+.decorationTitleChild{
+    height: 10px;
+    width: 100px;
+    background-color: rgb(12, 10, 37);
+    opacity: 0.5;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.presentation{
+    width: 60%;
+    margin: auto;
+    font-family: 'lato';
+    font-size: 1.1rem;
+}
+.home-container{
+    margin-top: 50px;
+    width: 100%;
+}
+.home-container .home-container-part1{
+   width: 80%;
+   margin: 20px auto -50px;
+}
+.home-container .home-container-part1 img{
+    border: 2px solid rgb(255, 108, 34);
+}
+.home-container .home-container-carte{
+    width: 80%;
+    margin: auto;
+}
+.home-container .home-container-carte h1{
+  color: rgb(12, 10, 37);
+    margin: 50px auto;
+    font-family: 'lato';
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+}
+.home-container .home-container-carte .specialites-container ul, .home-container .home-container-carte .offres-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.home-container .home-container-carte .specialites-container ul li, .home-container .home-container-carte .offres-container ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(119, 119, 119);
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.home-container .home-container-carte .specialites-container ul img, .home-container .home-container-carte .offres-container ul img{
+    height: 200px;
+}
+.home-container .home-container-carte .specialites-container ul span, .home-container .home-container-carte .offres-container ul span{
+    background-color: rgba(97, 18, 47, 0.346);
+    color: #000000;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+/* button */
+.btn{
+    border: none;
+}
+.btn a{
+    padding: 15px 100px;
+    text-decoration: none;
+    color: rgb(12, 10, 37);
+    font-family: 'lato';
+    font-size: 20px;
+    border: 2px solid rgb(12, 10, 37);
+    background-color: rgb(255, 108, 34);
+    transition: all 0.3s;
+}
+.btn a:hover{
+    border: 2px solid rgb(255, 108, 34);
+    color: rgb(255, 108, 34);
+    background-color: rgb(12, 10, 37);
+    cursor: pointer;
+}
+/* animation */
+
+.visible{
+    visibility: hidden;
+}
+.slideLeft {
+    animation-name: slideLeft;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideLeft {
+    0% {
+        opacity: 0;
+      transform: translateX(70%);
+    } 
+    100% {
+        opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  .slideRight {
+    animation-name: slideRight;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideRight {
+    0% {
+        opacity: 0;
+      transform: translateX(-70%);
+    } 
+    100% {
+        opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    visibility: visible;
+  }
+  
+  @keyframes slideUp {
+    0% {
+        opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+@media (max-width: 992px){
+    .home-container .home-container-part1{
+        width: 90%;
+     }
+     .presentation{
+        width: 80%;
+     }
+}
+@media (max-width: 767px){
+    .home-container .home-container-part1{
+        width: 95%;
+     }
+     .btn a{
+        padding: 15px 30px;
+     }
+     .presentation{
+        width: 90%;
+     }
+     .home-container .home-container-carte .specialites-container ul img, .home-container .home-container-carte .offres-container ul img{
+        height: 100px;
+    }
+}

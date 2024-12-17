@@ -1,0 +1,110 @@
+.space{
+    height: 100px;
+}
+.decorationTitle{
+    height: 10px;
+    width: 100px;
+    background-color: #f6b319;
+    position: relative;
+    bottom:45px;
+    left: 40%;
+}
+.decorationTitleChild{
+    height: 10px;
+    width: 100px;
+    background-color: #61122f;
+    opacity: 0.5;
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+#pageContent{
+    display: flex;
+}
+#pageContent .boutique-main{
+    width: 90%;
+    margin: auto;
+}
+#pageContent h1, #boutique-item h1{
+    text-align: center;
+    font-family: 'lato';
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+    margin: 150px auto 50px auto;
+}
+#pageContent #Categorie{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#pageContent #Categorie li{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 230px;
+}
+#pageContent #Categorie li a{
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: black;
+    font-weight: 600;
+    border: 1px solid rgb(119, 119, 119);
+}
+#pageContent #Categorie li a:hover{
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+#pageContent #Categorie li a span{
+    background-color: rgba(97, 18, 47, 0.346);
+    color: #000000;
+    padding: 8px;
+}
+/* boutique item */
+
+#pageContent .boutique-item-main{
+    width: 90%;
+    margin: auto;
+}
+#pageContent .boutique-item-main ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#pageContent .boutique-item-main ul li{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    background-color: rgba(97, 18, 47, 0.5);
+}
+#pageContent .boutique-item-main ul li div{
+   padding: 10px;
+   color: white;
+}
+
+/* @media (max-width: 767px){
+    #pageContent .boutique-item-main{
+    width: 90%;
+    }
+} */
+/* @media (max-width: 1170px){
+    #pageContent #Categorie li{
+        width: 25%;
+    }
+}
+@media (max-width: 992px){
+    #pageContent #Categorie li{
+        width: 33%;
+    }
+}
+
+}
+@media (max-width: 480px){
+    #pageContent #Categorie li{
+        width: 100%;
+    }
+} */

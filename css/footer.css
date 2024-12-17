@@ -11,7 +11,7 @@ footer .separation{
     top: -100px;
 }
 .footerPart1{
-    height: 450px;
+    height: 500px;
     padding: 50px;
     background-color: rgb(12, 10, 37);
     color: white;
@@ -113,7 +113,7 @@ footer .redLine{
 }
 @media (max-width: 767px){
     .footerPart1{
-        height: 500px;
+        height: 550px;
     }
     footer form{
     width: 250px;

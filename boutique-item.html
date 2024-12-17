@@ -8,8 +8,7 @@
         <meta name="author" content="Sekma">
         <link rel="icon" href="img/logo.ico">
         <link rel="stylesheet" href="css/navBar.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/accueil.css">
+        <link rel="stylesheet" href="css/boutique.css">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,99 +20,42 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
     </head>
     <body>
-      <header>
-        <nav id="navBar">
-          <div class="navBar-left">
-            <img class="logo" src="img/photo_de_couv.png" alt="logo">
-               <!-- nav bar menu -->
-            <ul>
-              <li><a id="home" href="#">ACCUEIL</a></li>
-              <li><a id="offres" href="#">PROMOTION</a></li>
-              <li><a href="boutique.html">MENU</a></li>
-              <li><a id="contact" href="#">CONTACT</a></li>
-            </ul>
-            <!-- burger toggle -->
-            <div class="burger-toggle">
-              <div for="burger-toggle" class="burger" onclick="toggleMenu()">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
+        <header>
+            <nav id="navBar">
+              <div class="navBar-left">
+                <img class="logo" src="img/photo_de_couv.png" alt="logo">
+                   <!-- nav bar menu -->
+                   <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="index.html#title2">PROMOTION</a></li>
+                    <li><a href="boutique.html">MENU</a></li>
+                    <li><a id="contact" href="#">CONTACT</a></li>
+                  </ul>
+                <!-- burger toggle -->
+                <div class="burger-toggle">
+                  <div for="burger-toggle" class="burger" onclick="toggleMenu()">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="navBar-right">
-            <h5><a href="tel:+21621002629"><i class="fa-solid fa-headset fa-2x"></i><span>MOB: (+216) 21 002 629</span></a></h5>
-          </div>
-        </nav>
-        
-              <!-- section header -->
-              <section class="wrapper" id="header-content">
-                <div class="slideshows">
-                  <div class="slideshow slideshow--hero">
-                    <div class="slides">
-                      <div class="slide slide1">
-                        <div class="header-content header-content1">
-                            <img src="/img/separation.png" width="100%" alt="">
-                        </div>
-                      </div>
-                      <div class="slide slide2">
-                        <div class="header-content header-content2">
-                          <img src="/img/photo_de_profil.png" width="100%" alt="">
-                        </div>
-                      </div>
-                      <div class="slide slide3">
-                        <div class="header-content header-content3">
-                          <img src="/img/photo_de_couv.png" width="100%" alt="">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slideshow slideshow--contrast slideshow--contrast--before">
-                    <div class="slides">
-                      <div class="slide slide1"></div>
-                      <div class="slide slide2"></div>
-                      <div class="slide slide3"></div>
-                    </div>
-                  </div>
-                  <div class="slideshow slideshow--contrast slideshow--contrast--after">
-                    <div class="slides">
-                      <div class="slide slide1"></div>
-                      <div class="slide slide2"></div>
-                      <div class="slide slide3"></div>
-                    </div>
-                  </div>
-                </div>
-            </section>
-      </header>
-          <main>
-            <section id="home-container" class="home-container">
-                <div class="home-container-carte">
-                    <div id="offres" class="space">
-                        <button class="btn"><a href="boutique.html">DECOUVREZ NOTRE MENU</a></button>
-                    </div>
-                    <h1 id="title1">Qui sommes nous</h1>
-                    <div class="decorationTitle"><div class="decorationTitleChild"></div></div>
-                    <div class="presentation visible">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aliquid voluptate obcaecati ratione, consequuntur nostrum vel neque eum, sed quos ducimus modi praesentium animi ipsa ipsum adipisci quia,
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia laudantium iusto alias quasi unde dicta distinctio perferendis numquam id, explicabo eveniet velit voluptates molestiae sunt laborum dolor eaque exercitationem reprehenderit.
-                        </p>
-                    </div>
-                    <h1 id="title2">Spécialités</h1>
-                    <div class="decorationTitle"><div class="decorationTitleChild"></div></div>
-                    <div class="specialites-container">
-                        <ul>
-                        </ul>
-                    </div>
-                    <h1 id="title3">Offres</h1>
-                    <div class="decorationTitle"><div class="decorationTitleChild"></div></div>
-                    <div class="offres-container">
-                        <ul>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-          </main>
-          <footer id="footer">   
+              <div class="navBar-right">
+                <h5><a href="tel:+21621002629"><i class="fa-solid fa-headset fa-2x"></i><span>MOB: (+216) 21 002 629</span></a></h5>
+              </div>
+            </nav>
+        </header>
+        <!-- container -->
+        <section id="pageContent">
+            <main id="boutique-item" class="boutique-item-main">
+                <h1></h1>
+                <div class="decorationTitle"><div class="decorationTitleChild"></div></div>
+                <ul>
+                   
+                </ul>
+            </main>
+        </section>
+        <footer id="footer">   
             <div id="contact" class="space"></div>     
             <div class="footerPart1">
               <img width="200px" src="img/photo_de_couv.png" alt="logo">
@@ -151,7 +93,7 @@
                     <a href="mailto:sekma.mohamed.hedi@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>&nbsp;<span>E-mail</span>: sekma.mohamed.hedi@gmail.com</a>    
                     <a href="https://www.linkedin.com/in/mohamed-hedi-sekma-b4baab26b" target="_blank"><i class="fa-brands fa-linkedin"></i>&nbsp;<span>Linkedin</span>: Med Hedi Sekma</a> 
                     <a href="https://www.facebook.com/sekma.med.hedi" target="_blank"><i class="fa-brands fa-facebook"></i>&nbsp;<span>Facebook</span>: Med Hedi Sekma</a>
-                    <a href="https://sekma.github.io/hediPortfolio/" target="_blank"><i class="fa-solid fa-link"></i>&nbsp;<span>Web</span>: Med Hedi Sekma Portfolio</a>    
+                    <a href="https://www.instagram.com/hedi.sekma" target="_blank"><i class="fa-brands fa-instagram"></i>&nbsp;<span>Instagram</span>: Med Hedi Sekma</a>    
                     <a href="https://www.google.tn/maps/place/36%C2%B050'32.6%22N+10%C2%B009'53.5%22E/@36.8424003,10.1622921,17z/data=!3m1!4b1!4m4!3m3!8m2!3d36.842396!4d10.164867?hl=fr&entry=ttu" target="_blank"><i class="fa-solid fa-location-dot"></i>&nbsp;<span>Adresse</span>: 000 Rue abcd Menzah 7, Ariana</a>             
                 </div>
             </div> 
@@ -163,13 +105,11 @@
                     <a href="https://github.com/Sekma" target="_blank"><img src="img/icons/icons8-github-48.png" alt=""></a>
                     <a href="https://www.linkedin.com/in/mohamed-hedi-sekma-b4baab26b" target="_blank"><img src="img/icons/linkedin.png" alt=""></a>
                     <a href="https://www.facebook.com/sekma.med.hedi" target="_blank"><img src="img/icons/facebook.png" alt="facebook"></a> 
-                    <a href="https://sekma.github.io/hediPortfolio/" target="_blank"><img src="img/icons/default-link.jpg" alt="facebook"></a> 
                 </div>
             </div>         
     </footer>
-        <script src="js/header.js"></script>      
-        <script src="js/navBar.js"></script>     
-        <script src="js/accueil.js"></script>     
+        <script src="js/navBar.js"></script>
+        <script src="js/boutique-item.js"></script>
         <script src="js/animationScroll.js"></script>  
     </body>
 </html>
