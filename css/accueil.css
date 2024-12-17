@@ -168,4 +168,8 @@
      .home-container .home-container-carte .specialites-container ul img, .home-container .home-container-carte .offres-container ul img{
         height: 100px;
     }
+    .btn a{
+        padding: 15px;
+        font-size: 15px;
+    }
 }
