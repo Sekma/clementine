@@ -21,12 +21,11 @@ function toggleMenu() {
     });
 
     $(window).scroll(function () { 
-      if($(window).scrollTop()>500){
+      if($(window).scrollTop()>50){
           $("nav").css("background-color", "rgb(255, 255, 255)");
       }
       else{
-        $("nav").css("background-color", "rgba(255, 255, 255, 0.8)");
-        $("nav:hover").css("background-color", "rgba(255, 255, 255, 0.8)");
+        $("nav").css("background-color", "rgba(255, 255, 255, 0.5)");
       }
   });
   });
