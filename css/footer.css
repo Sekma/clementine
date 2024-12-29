@@ -102,14 +102,15 @@ footer .redLine{
     background-color: white;
     box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.5);
 }
-.footerPart3 span{
+footer span{
     font-size: x-small;
     opacity: 0.7;
 }
-.footerPart3 .createur img{
-    width: 18px;
+footer .createur a i{
+    color: #000000;
+    font-size: small;
     margin: 20px 10px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 @media (max-width: 767px){
     .footerPart1{
